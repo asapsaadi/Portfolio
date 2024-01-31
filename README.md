@@ -11,11 +11,11 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ritika789/3d-portfolio.git
+   git clone https://github.com/asapsaadi/Portfolio.git
 
 ## Install Dependencies:
 
-cd 3d-portfolio
+cd Portfolio
 npm install
 
 ## Run the Development Server:
@@ -23,4 +23,4 @@ npm install
 npm start
 
 
- ![Screenshot (90)](https://github.com/ritika789/3d-portfolio/assets/83690198/2ed08294-3f12-4183-b435-1df633824a05)
+ <!-- ![Screenshot (90)](https://github.com/ritika789/3d-portfolio/assets/83690198/2ed08294-3f12-4183-b435-1df633824a05) -->
