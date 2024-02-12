@@ -5,7 +5,12 @@ const About = () => {
   return (
     <section className="max-container">
       <h1 className='head-text'>
-        Hey, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Saad</span>
+        Hey, I'm <span style={{ 
+    color: 'red',
+    backgroundImage: 'linear-gradient(to right, red, blue)', // Modify the gradient colors and direction as needed
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
+    }} >Saad</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
@@ -31,7 +36,12 @@ const About = () => {
         </div>
       </div>
       <h1 className='head-text'>
-        <span className='blue-gradient_text font-semibold drop-shadow'>Services </span>I Offer
+        <span style={{ 
+    color: 'red',
+    backgroundImage: 'linear-gradient(to right, red, blue)', // Modify the gradient colors and direction as needed
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
+    }} >Services </span>I Offer
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>

@@ -7,7 +7,12 @@ const Projects = () => {
   return (
     <section className="max-container">
       <h1 className='head-text'>
-        My <span className='blue-gradient_text font-semibold drop-shadow'>Projects</span>
+      My <span style={{ 
+    color: 'red',
+    backgroundImage: 'linear-gradient(to right, red, blue)', // Modify the gradient colors and direction as needed
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
+    }} className='font-semibold drop-shadow'>Projects</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
